@@ -1,0 +1,46 @@
+.claude/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+env/
+venv/
+CAM/
+.venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large datasets
+data/
+datasets/
+*.zip
+*.tar
+*.gz
+*.h5
+*.pth
+*.pt
+
+# Model weights
+models/
+checkpoints/
+
+# Output files
+output/
+results/
+chest_xray/
+Technique.docx
+python main.docx
+main.py
+run_metrics.py
+chest_xray/
+test_xai.py

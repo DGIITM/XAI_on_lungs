@@ -1,0 +1,9 @@
+torch
+torchvision
+grad-cam
+numpy
+opencv-python
+pillow
+tqdm
+torchmetrics
+scikit-learn
