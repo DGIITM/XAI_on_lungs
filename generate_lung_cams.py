@@ -56,8 +56,9 @@ def get_args():
                         help='Number of images per class (overrides --num-images if set)')
     parser.add_argument('--use-cuda', action='store_true',
                         help='Use GPU if available')
-    parser.add_argument('--target-class', type=str, default=None,
-                        help='Target pathology for CAM (e.g., Pneumonia). Default: top prediction.')
+    parser.add_argument('--target-class', type=str, default='Pneumonia',
+                        help="Target pathology for CAM (e.g., Pneumonia). Default: 'Pneumonia'. "
+                             "Pass an empty string to fall back to the model's top prediction instead.")
     parser.add_argument('--dpi', type=int, default=150,
                         help='DPI for saved figures')
     return parser.parse_args()
